@@ -29,7 +29,7 @@ public class MongoDBFactory {
 	private static MongoClient mongoClient = null;
 	static {
 		try {
-			List<ServerAddress> list= Arrays.asList(new ServerAddress("s.zldmongodb.com",27017));
+			List<ServerAddress> list= Arrays.asList(new ServerAddress("localhost",27017));
 			mongoClient = new MongoClient(list);
 			mongoClient.setReadPreference(ReadPreference.secondaryPreferred());
 			MongoOptions mongoOptions = mongoClient.getMongoOptions();
