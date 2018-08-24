@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>parkingos</groupId>
-  <artifactId>parkingos-cloud</artifactId>
+  <artifactId>parkingos-cloud-vue-server</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
